@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pathfinding Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pathfinding Algorithm Visualizer</h1>
+  <div id="controls">
+    <label for="algorithm">Choose algorithm:</label>
+    <select id="algorithm">
+      <option value="bfs">Breadth-First Search (BFS)</option>
+      <option value="dfs">Depth-First Search (DFS)</option>
+      <option value="astar">A* Search</option>
+    </select>
+    <button id="startBtn">Start</button>
+    <button id="resetBtn">Reset</button>
+    <button id="setStartBtn">Set Start</button>
+    <button id="setEndBtn">Set End</button>
+    <span>Click cells to draw walls or set start/end.</span>
+  </div>
+  <div id="grid"></div>
+  <script src="script.js"></script>
+</body>
+</html>
