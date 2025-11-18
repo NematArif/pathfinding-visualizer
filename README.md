@@ -19,7 +19,6 @@
 - Add mobile / touch support and accessibility improvements.  
 - Add unit tests & demo scenarios (performance benchmarks).
 
-[Live Demo](https://NematArif.github.io/pathfinding-visualizer/)
 ## How to Use / Controls
 
 - **Draw walls:** Click and drag on the grid to add obstacles (black cells).  
