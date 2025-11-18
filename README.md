@@ -1,2 +1,22 @@
-# pathfinding-visualizer
-Built a web-based pathfinding visualizer using HTML/CSS/JavaScript. Users can draw walls and watch BFS, DFS, and A* explore a grid to find the shortest path. The project deepened my understanding of graph search, UI logic, and how algorithms behave visually.
+# Pathfinding Visualizer
+
+**Description:** This web app visualizes pathfinding algorithms (BFS, DFS, and A*) on a 2D grid. Users can draw obstacles, set start and end points, and watch how each algorithm explores the grid to find a path.
+
+## Features
+- **Breadth-First Search (BFS):** Finds shortest path in an unweighted grid.
+- **Depth-First Search (DFS):** Explores paths deeply, illustrating backtracking.
+- **A* Search (optional):** Uses a Manhattan heuristic (f = g + h) to efficiently find shortest path.
+- **Interactive Controls:** Click/drag to add/remove walls, set start/end points, and choose algorithm.
+- **Visualization:** Cells change color as they’re visited (blue) and the final path (yellow).
+
+## Getting Started
+
+**How to Run Locally:**
+1. Clone or download this repository.
+2. Open `index.html` in a web browser (no server needed).
+3. Use the on-page controls to draw walls, choose algorithms, and visualize the search.
+
+```bash
+git clone https://github.com/NematArif/pathfinding-visualizer.git
+cd pathfinding-visualizer
+# Then open index.html in your browser
