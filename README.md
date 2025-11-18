@@ -9,6 +9,8 @@
 - **Interactive Controls:** Click/drag to add/remove walls, set start/end points, and choose algorithm.
 - **Visualization:** Cells change color as they’re visited (blue) and the final path (yellow).
 
+<img width="920" height="713" alt="image" src="https://github.com/user-attachments/assets/a718d30c-2923-406b-bd7f-b23346733e92" />
+
 ## Getting Started
 
 **How to Run Locally:**
