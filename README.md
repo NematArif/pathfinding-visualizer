@@ -11,12 +11,30 @@
 
 <img width="920" height="713" alt="image" src="https://github.com/user-attachments/assets/a718d30c-2923-406b-bd7f-b23346733e92" />
 
+## Future work / Improvements
+
+- Add animation speed slider (control delay between steps).  
+- Add maze generation and random test maps.  
+- Support weighted nodes and Dijkstra’s algorithm.  
+- Add mobile / touch support and accessibility improvements.  
+- Add unit tests & demo scenarios (performance benchmarks).
+
+[Live Demo](https://NematArif.github.io/pathfinding-visualizer/)
+## How to Use / Controls
+
+- **Draw walls:** Click and drag on the grid to add obstacles (black cells).  
+- **Set start / end:** Click **Set Start** or **Set End**, then click any cell to place the start (green) or end (red).  
+- **Choose algorithm:** Select BFS, DFS, or A* from the dropdown.  
+- **Start:** Click **Start** to run the selected algorithm. Visited cells turn blue, and the final path (if found) turns yellow.  
+- **Reset:** Click **Reset** to clear the grid and restart.
+
 ## Getting Started
 
 **How to Run Locally:**
 1. Clone or download this repository.
 2. Open `index.html` in a web browser (no server needed).
 3. Use the on-page controls to draw walls, choose algorithms, and visualize the search.
+
 
 ```bash
 git clone https://github.com/NematArif/pathfinding-visualizer.git
